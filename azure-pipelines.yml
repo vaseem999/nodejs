@@ -16,10 +16,10 @@ steps:
   displayName: 'npm install and build'
   
 - task: ArchiveFiles@2
-  displayname: 'Archive File'
+  displayName: 'Archive File'
   inputs:
     rootFolderOrFile: '$(system.DefaultworkingDirectory)'
     includeRootFolder: false
 
 - task: PublishBuildArtifacts@1
-  displayname: 'publish artifacts: drop'
+  displayName: 'publish artifacts: drop'
