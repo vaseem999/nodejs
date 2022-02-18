@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'nnodapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EC71B2BF664C44ACAF2C26C052BD7E02 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_95F273724003488CA4A505B32BD2544C }}
           package: .
